@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BS5</title>
+    <link rel="icon" type="#" href="#">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- ex1 -->
+      <h2 class="text-danger">Click the button to show the text</h2>
+      <button type="button" class="btn btn-dark" onclick="showtext()">show text</button>
+      <h3 id="s_text"></h3>
+      <hr>
+      <!-- ex2 -->
+      <h2 class="text-danger">Click the button to show the date</h2>
+      <button type="button" class="btn btn-dark" onclick="showdate()">show date</button>
+      <h3 id="s_date"></h3>
+      <hr>
+      <!-- ex3 -->
+      <h2 class="text-danger">Click the button to turn on/off the bulb</h2>
+      <button type="button" class="btn btn-dark" onclick="bulbOn()">bulbOn</button>
+      <img id="img" src="images/off.gif">
+      <button type="button" class="btn btn-dark" onclick="bulbOff()">bulbOff</button>
+      <hr>
+      <!-- ex4 -->
+      <h2 class="text-danger">Click the button to change the color</h2>
+      <button type="button" class="btn btn-dark" onclick="changecolor()">change color</button>
+      <h3 id="css">i live in chittagong</h3>
+      <hr>
+      <!-- ex5 -->
+      <h2 class="text-danger">Click the button to change the font size</h2>
+      <button type="button" class="btn btn-dark" onclick="changefont()">change font</button>
+      <h3 id="font">i live in chittagong</h3>
+      <hr>
+      <!-- ex6 -->
+      <h2 class="text-danger">Click the button to show/hide the content</h2>
+      <button type="button" class="btn btn-dark" onclick="showcontent()">show</button>
+      <button type="button" class="btn btn-dark" onclick="hidecontent()">hide</button>
+      <h3 id="con">i live in chittagong</h3>
+      <hr>
+      <!-- ex7 -->
+      <h2 class="text-danger">On Mouse Over the button to turn on/off the light</h2>
+      <button type="button" class="btn btn-dark" onmouseover="bulbOnO1()">turn on</button>
+      <img id="imag" src="images/off.gif">
+      <button type="button" class="btn btn-dark" onmouseover="bulbOff2()">turn off</button>
+      <hr>
+    </div>
+    
+    
+    <!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
